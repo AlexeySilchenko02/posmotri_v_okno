@@ -213,6 +213,11 @@ input[type="text"] {
   gap: 15px;
 }
 
+.search-form__label:has(:focus-visible) {
+  outline: 1px solid #fff;
+  outline-offset: 0;
+}
+
 .search-form__label {
   display: flex;
   align-items: center;
